@@ -1,0 +1,30 @@
+{
+    "version":  "2026.8.30",
+    "release_date":  "2026-08-30T22:42:16Z",
+    "notes":  "Release 2026.8.30: app-config padrao com update_url e 3 dias de trial; auto-updater via release manifest publico; update.ps1 baixa setup do GitHub e verifica SHA256; data/* marcado como onlyifdoesntexist para preservar contas/nodes/proxies/vps em upgrades; novo guia do usuario em docs/USER-GUIDE.md; instalador exclui scripts de upload de release do payload.",
+    "setup":  {
+                  "name":  "MediviaFarm-Setup.exe",
+                  "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
+                  "size":  92685747,
+                  "sha256":  "DF243F7CE932FB3A53EF2DFFB62867025E8829CEC56FFFD529A07602A9D80072",
+                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.30/MediviaFarm-Setup.exe"
+              },
+    "assets":  {
+                   "wsl_distro":  {
+                                      "name":  "MediviaFarm-WSL-v1.tar",
+                                      "description":  "WSL2 distro MediviaFarm pre-configurada com Ubuntu, Python, WireGuard, noVNC, X11 tools e dashboard worker runtime.",
+                                      "size":  10259752960,
+                                      "sha256":  "6FA8F4E37DCAFAAEC87B35CF80869F52564AD793C1C057DDADCE7327ED2102D4",
+                                      "gdrive_id":  "1tLRJoLLabsEtx-uilDMJoZ3FujP91oju",
+                                      "optional":  false
+                                  },
+                   "vm_windows":  {
+                                      "name":  "MediviaFarm-VM-v1.ova",
+                                      "description":  "VirtualBox Windows 10 VM com o cliente oficial Medivia e host agent (OPTIONAL/BETA).",
+                                      "size":  21727206400,
+                                      "sha256":  "C7B18B3C17B834CF9B4471E0E0CB32AB5A1C4F508B2F15DA4F55CD1A7AA6A177",
+                                      "gdrive_id":  "1Dn4aaXeiQ8lzvVLaYc08-FOs1LVWct3j",
+                                      "optional":  true
+                                  }
+               }
+}
