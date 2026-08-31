@@ -1,4 +1,4 @@
-﻿{
+{
     "version":  "2026.8.34",
     "release_date":  "2026-08-31T02:36:56Z",
     "notes":  "Release 2026.8.34: correcoes de producao para distribuicao publica. App desktop elimina timeout falso na deteccao do backend (AbortController + aceita 401/403 + 180s total), path detection dos scripts PowerShell funciona em C:\\MediviaFarm, portproxy restringido a 127.0.0.1 e backup-project compativel com instalacao padrao.",
