@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "2026.8.31",
-    "release_date":  "2026-08-30T22:21:48Z",
+    "version":  "2026.8.32",
+    "release_date":  "2026-08-31T00:17:55Z",
     "notes":  "Release 2026.8.30: app-config padrao com update_url apontando para GitHub releases; auto-updater via release manifest publico; update.ps1 baixa setup do GitHub e verifica SHA256; data/* marcado como onlyifdoesntexist para preservar contas/nodes/proxies/vps em upgrades; novo guia do usuario em docs/USER-GUIDE.md; instalador exclui scripts de upload de release do payload.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
-                  "size":  92684740,
-                  "sha256":  "E1D501D7C85FBBD09AB0BB8C968ECE92A11E0F5FE524D02DEF346DDD16125BB5",
-                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.31/MediviaFarm-Setup.exe"
+                  "size":  92675977,
+                  "sha256":  "3BFF54E2D944CEE8C526868EB0AA0BD9FD9CC178C75D40B4A16E39B1C6559A4E",
+                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.32/MediviaFarm-Setup.exe"
               },
     "assets":  {
                    "wsl_distro":  {
