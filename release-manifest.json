@@ -1,13 +1,13 @@
-{
-    "version":  "2026.8.34",
-    "release_date":  "2026-08-31T02:36:56Z",
+﻿{
+    "version":  "2026.8.35",
+    "release_date":  "2026-08-31T07:05:32Z",
     "notes":  "Release 2026.8.34: correcoes de producao para distribuicao publica. App desktop elimina timeout falso na deteccao do backend (AbortController + aceita 401/403 + 180s total), path detection dos scripts PowerShell funciona em C:\\MediviaFarm, portproxy restringido a 127.0.0.1 e backup-project compativel com instalacao padrao.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
-                  "size":  92678551,
-                  "sha256":  "767A5892E1E53F9FD40509DFC5D392BC180DFA410034BE5F687D4FF3622C026D",
-                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.34/MediviaFarm-Setup.exe"
+                  "size":  92763355,
+                  "sha256":  "C3B18CED68E3E1B060ECDD0F9E4B9A90F13316D08BFDBBDFB15A2C9F1FF098A7",
+                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.35/MediviaFarm-Setup.exe"
               },
     "assets":  {
                    "wsl_distro":  {
