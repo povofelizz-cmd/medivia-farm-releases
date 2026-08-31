@@ -1,12 +1,12 @@
 ﻿{
     "version":  "2026.8.35",
-    "release_date":  "2026-08-31T07:05:32Z",
+    "release_date":  "2026-08-31T08:00:30Z",
     "notes":  "Release 2026.8.35: painel de contas com senha visivel por padrao, informacoes em tempo real (mundo, personagem, node, instancia, level, HP/HPmax, status), auto-refresh a cada 5s e botao de copiar senha. Placeholder accounts removidas; duas contas Legacy novas criadas localmente via account creator usando aliases @gmail.com (mailtemp.edu.pl). App desktop Electron + React/Vite com ativacao offline de licenca (trial 3 dias, Fernet vinculado ao hardware ID). Backend discovery robusto, portproxy 127.0.0.1 only, WSL2 mirrored networking e auto-updater compativel com PowerShell 5.1.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
-                  "size":  92763355,
-                  "sha256":  "C3B18CED68E3E1B060ECDD0F9E4B9A90F13316D08BFDBBDFB15A2C9F1FF098A7",
+                  "size":  92780538,
+                  "sha256":  "450AE83446220A9F6ED23EB16C742F1C05868FFA36B2BA6052BE03C20ACC0BB2",
                   "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.35/MediviaFarm-Setup.exe"
               },
     "assets":  {
