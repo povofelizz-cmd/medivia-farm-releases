@@ -1,7 +1,7 @@
 ﻿{
     "version":  "2026.8.35",
     "release_date":  "2026-08-31T07:05:32Z",
-    "notes":  "Release 2026.8.34: correcoes de producao para distribuicao publica. App desktop elimina timeout falso na deteccao do backend (AbortController + aceita 401/403 + 180s total), path detection dos scripts PowerShell funciona em C:\\MediviaFarm, portproxy restringido a 127.0.0.1 e backup-project compativel com instalacao padrao.",
+    "notes":  "Release 2026.8.35: painel de contas com senha visivel por padrao, informacoes em tempo real (mundo, personagem, node, instancia, level, HP/HPmax, status), auto-refresh a cada 5s e botao de copiar senha. Placeholder accounts removidas; duas contas Legacy novas criadas localmente via account creator usando aliases @gmail.com (mailtemp.edu.pl). App desktop Electron + React/Vite com ativacao offline de licenca (trial 3 dias, Fernet vinculado ao hardware ID). Backend discovery robusto, portproxy 127.0.0.1 only, WSL2 mirrored networking e auto-updater compativel com PowerShell 5.1.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
