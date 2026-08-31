@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "2026.8.33",
-    "release_date":  "2026-08-31T01:17:32Z",
-    "notes":  "Release 2026.8.33: correcoes no one-click VPS installer para ambientes onde o retorno UDP do WireGuard e ICMP para o master estao bloqueados. O instalador remoto nao aborta mais na validacao de ping e o bootstrap local ativa automaticamente tuneis SSH fallback (portas 9500-9505) quando o tunel WireGuard nao passa trafego.",
+    "version":  "2026.8.34",
+    "release_date":  "2026-08-31T02:36:56Z",
+    "notes":  "Release 2026.8.34: correcoes de producao para distribuicao publica. App desktop elimina timeout falso na deteccao do backend (AbortController + aceita 401/403 + 180s total), path detection dos scripts PowerShell funciona em C:\\MediviaFarm, portproxy restringido a 127.0.0.1 e backup-project compativel com instalacao padrao.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
-                  "size":  92677073,
-                  "sha256":  "2A6F4F2B7CBB17C9192C439640D0C24409C966F67D3D4117BA9BBEB5386C4DC9",
-                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.33/MediviaFarm-Setup.exe"
+                  "size":  92678551,
+                  "sha256":  "767A5892E1E53F9FD40509DFC5D392BC180DFA410034BE5F687D4FF3622C026D",
+                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.34/MediviaFarm-Setup.exe"
               },
     "assets":  {
                    "wsl_distro":  {
