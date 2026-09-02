@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "2026.8.38",
-    "release_date":  "2026-09-02T18:00:00Z",
-    "notes":  "Release 2026.8.38: reativa Cloudflare WARP no worker VPS contabo-stl-1 com roteamento por UID (cada instancia medivia-instN sai pelo seu proprio tunel wg-warpN); instalador remoto configura wgcf, gera contas/perfis WARP, levanta interfaces wg-warp1/wg-warp2 e aplica regras iptables/ip rule/ip route por UID; start-vps-worker.sh exporta MEDIVIA_WARP_ENABLED=1 e reaplica rotas antes de subir as instancias; isolate-instance.sh executa o cliente como o usuario medivia-instN quando WARP esta ativo; dashboard expoe /api/warp/status e flag warp_active; instance-view.html mostra 'WARP ativo · IP unico' e oculta o aviso de IP publico compartilhado quando WARP esta presente.",
+    "version":  "2026.8.39",
+    "release_date":  "2026-09-02T18:26:26Z",
+    "notes":  "Release 2026.8.39: pivot do bot para runas manuais. Removida a runa automÃ¡tica, threshold de mana, cooldown, anti-GM, food automÃ¡tico e FPS cap do painel do bot. Agora a tela principal e o painel de instÃ¢ncia exibem um botÃ£o âš¡ Fazer RUNAS que dispara a hotkey F1 em todas as instÃ¢ncias ativas (locais + VPS workers) com delay aleatÃ³rio de 0,5 a 3 segundos entre cada instÃ¢ncia. O monitor continua fornecendo live stats (HP/MP/cap/pos) e o watchdog mantÃ©m o farm vivo. Telas atualizadas: dashboard.html, instance-view.html, BotPanel.jsx e AccountsPanel.jsx. O instalador continua usando a mesma distro WSL base; as mudanÃ§as de cÃ³digo em wsl/ sÃ£o implantadas pelos scripts do projeto no primeiro boot.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
-                  "size":  92607230,
-                  "sha256":  "4A7B3BC88CB3A1EC55A732038FAA9FCAC0C24C516875FFB054B2E7B2BEB18A36",
-                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.38/MediviaFarm-Setup.exe"
+                  "size":  92597507,
+                  "sha256":  "D172F43F73E660959DC4325AABDDA7A8531AD5470F5ADF5BE526CCE28239EDC6",
+                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.39/MediviaFarm-Setup.exe"
               },
     "assets":  {
                    "wsl_distro":  {
