@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "2026.8.36",
-    "release_date":  "2026-09-02T12:00:00Z",
-    "notes":  "Release 2026.8.36: corrige leitura de offsets de HP/mana/cap para o build atual do Medivia (name inline buffer, c_hp 0x600, auto-calibracao por padrao); monitor do bot agora expoe valores absolutos (hp/max_hp, mana/max_mana, cap) em tempo real; dashboard e instance-view mostram HP/MP absolutos junto com percentuais; single-instance lock no app desktop evita multiplas janelas; ativacao offline de licenca por hardware ID; alinhamento de release manifest para v2026.08.36.",
+    "version":  "2026.8.38",
+    "release_date":  "2026-09-02T18:00:00Z",
+    "notes":  "Release 2026.8.38: reativa Cloudflare WARP no worker VPS contabo-stl-1 com roteamento por UID (cada instancia medivia-instN sai pelo seu proprio tunel wg-warpN); instalador remoto configura wgcf, gera contas/perfis WARP, levanta interfaces wg-warp1/wg-warp2 e aplica regras iptables/ip rule/ip route por UID; start-vps-worker.sh exporta MEDIVIA_WARP_ENABLED=1 e reaplica rotas antes de subir as instancias; isolate-instance.sh executa o cliente como o usuario medivia-instN quando WARP esta ativo; dashboard expoe /api/warp/status e flag warp_active; instance-view.html mostra 'WARP ativo · IP unico' e oculta o aviso de IP publico compartilhado quando WARP esta presente.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
-                  "size":  102960637,
-                  "sha256":  "378CAC8266F001A6DD7C489888C3F8D2FA4CD67BE18F6D556F6785C98C6A459E",
-                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.36/MediviaFarm-Setup.exe"
-              }
+                  "size":  92607230,
+                  "sha256":  "4A7B3BC88CB3A1EC55A732038FAA9FCAC0C24C516875FFB054B2E7B2BEB18A36",
+                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.38/MediviaFarm-Setup.exe"
+              },
     "assets":  {
                    "wsl_distro":  {
                                       "name":  "MediviaFarm-WSL-v1.tar",
