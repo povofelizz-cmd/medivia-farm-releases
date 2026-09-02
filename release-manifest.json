@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "2026.8.35",
-    "release_date":  "2026-08-31T08:00:30Z",
-    "notes":  "Release 2026.8.35: painel de contas com senha visivel por padrao, informacoes em tempo real (mundo, personagem, node, instancia, level, HP/HPmax, status), auto-refresh a cada 5s e botao de copiar senha. Placeholder accounts removidas; duas contas Legacy novas criadas localmente via account creator usando aliases @gmail.com (mailtemp.edu.pl). App desktop Electron + React/Vite com ativacao offline de licenca (trial 3 dias, Fernet vinculado ao hardware ID). Backend discovery robusto, portproxy 127.0.0.1 only, WSL2 mirrored networking e auto-updater compativel com PowerShell 5.1.",
+    "version":  "2026.8.36",
+    "release_date":  "2026-09-02T12:00:00Z",
+    "notes":  "Release 2026.8.36: corrige leitura de offsets de HP/mana/cap para o build atual do Medivia (name inline buffer, c_hp 0x600, auto-calibracao por padrao); monitor do bot agora expoe valores absolutos (hp/max_hp, mana/max_mana, cap) em tempo real; dashboard e instance-view mostram HP/MP absolutos junto com percentuais; single-instance lock no app desktop evita multiplas janelas; ativacao offline de licenca por hardware ID; alinhamento de release manifest para v2026.08.36.",
     "setup":  {
                   "name":  "MediviaFarm-Setup.exe",
                   "description":  "Instalador Windows para Medivia Farm (WSL distro + app desktop).",
-                  "size":  92780538,
-                  "sha256":  "450AE83446220A9F6ED23EB16C742F1C05868FFA36B2BA6052BE03C20ACC0BB2",
-                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.35/MediviaFarm-Setup.exe"
-              },
+                  "size":  102960637,
+                  "sha256":  "378CAC8266F001A6DD7C489888C3F8D2FA4CD67BE18F6D556F6785C98C6A459E",
+                  "url":  "https://github.com/povofelizz-cmd/medivia-farm-releases/releases/download/v2026.08.36/MediviaFarm-Setup.exe"
+              }
     "assets":  {
                    "wsl_distro":  {
                                       "name":  "MediviaFarm-WSL-v1.tar",
